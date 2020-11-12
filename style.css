@@ -1,0 +1,32 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	font-size: medium;
+	background: url("Carbohydrates.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	padding-top: 10px;
+}
+.list {
+	list-style-type: none;
+	padding: 10px;
+}
+li {
+	background-color: #393B39;
+	border: 2px outset black;
+	color: #fff;
+}
+
+li:hover {
+	background-color:  gray;
+}
+li:active {
+	background-color: darkgray;
+}
+.add{	
+	background-color: lightslategrey;
+}
